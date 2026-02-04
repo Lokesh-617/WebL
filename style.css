@@ -1,0 +1,38 @@
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: grey;
+  color: black;
+  text-align: center;
+  padding: 15px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.profile-pic {
+  width: 110px;
+  border-radius: 60%;
+  margin-right: 40px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+footer {
+  background: grey;
+  text-align: center;
+  padding: 20px;
+}
